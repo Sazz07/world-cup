@@ -55,3 +55,94 @@
 .banner-image img {
     width: 120%;
 }
+
+/* blog and transfer news */
+
+.blogs{
+    display: flex;
+    width: 1320px;
+    margin: 0 auto 140px;
+}
+.blog {
+    background-color: #161616;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+.blog-button {
+    background-color: white;
+    text-align: center;
+    margin: 30px;
+    width: 252px;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+.blog-button a {
+    color: #161616;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.active {
+    background-color: #DD0000;
+}
+
+.transfer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 24px;
+    margin-left: 24px;
+    
+}
+
+.transfer-headline {
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+}
+
+.transfer-news {
+    display: flex;
+    flex-direction: column;
+    width: 312px;
+    border: 1px solid #E8E8E8;
+    border-radius: 10px;
+}
+
+.transfer-info {
+    padding: 0 20px;
+}
+
+.transfer-button{
+    margin: 20px 0;
+    border: 1px solid #161616;
+    width: 67px;
+    padding: 4px 16px;
+}
+
+.transfer-button a {
+    text-decoration: none;
+    color: #161616;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.transfer-headline{
+    color: #161616;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.transfer-details {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.fa-comment-dots {
+    margin-left: 30px;
+}
