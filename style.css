@@ -68,7 +68,6 @@ body {
 
 .blogs{
     display: flex;
-    width: 75%;
     width: 1320px;
     margin: 0 auto 140px;
 }
