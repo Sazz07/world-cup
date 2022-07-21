@@ -9,25 +9,25 @@ body {
     color: white;
 }
 
+
 /* banner styling */
 
 .banner {
     display: flex;
     background-color: #161616;
-    width: 1321px;
-    margin: 50px auto 140px;;
+    width: 1320px;
+    margin: 50px auto 130px;;
     padding-top: 30px;
     border-radius: 30px;
 }
 
 .banner-details {
-    color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
     row-gap: 30px;
+    width: 40%;
     padding-left: 106px;
-    width: 50%;
 }
 
 .banner-title {
@@ -38,6 +38,7 @@ body {
 .banner-author {
     font-weight: 400;
     font-size: 16px;
+    line-height: 26px;
 }
 
 .watch-button {
@@ -48,6 +49,7 @@ body {
     text-align: center;
     padding: 16px 25px;
     border-radius: 5px;
+    font-size: 20px;
     font-weight: 400;
 }
 
@@ -56,16 +58,20 @@ body {
 }
 
 .banner-image img {
-    width: 120%;
+    width: 140%;
+    position: relative;
+    top: 4px;
 }
 
 /* blog and transfer news */
 
 .blogs{
     display: flex;
+    width: 75%;
     width: 1320px;
     margin: 0 auto 140px;
 }
+
 .blog {
     background-color: #161616;
     border-radius: 10px;
@@ -93,19 +99,14 @@ body {
     background-color: #DD0000;
 }
 
+/* transfer section */
+
 .transfer {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 24px;
-    margin-left: 24px;
-    
-}
-
-.transfer-headline {
-    margin-bottom: 20px;
-    font-size: 18px;
-    font-weight: 600;
-    line-height: 27px;
+    padding-left: 24px;
+    color: #161616;
 }
 
 .transfer-news {
@@ -134,6 +135,13 @@ body {
     font-size: 16px;
 }
 
+.transfer-headline {
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+}
+
 .transfer-headline{
     color: #161616;
     font-weight: 600;
@@ -148,6 +156,21 @@ body {
 
 .fa-comment-dots {
     margin-left: 30px;
+}
+
+.show-more-button {
+    background-color: #DD0000;
+    width: 80px;
+    padding: 16px;
+    margin: 50px auto 0;
+    border-radius: 10px;
+    display: none;   
+}
+
+.show-more-button a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
 }
 
 /* footer */
@@ -200,6 +223,17 @@ hr {
 .social-links a {
     color: white;
     text-decoration: none;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.2);
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    transition: all 0.5s ease;
+}
+
+.social-links a:hover {
+  background-color: white;
 }
   
 .copyright {
