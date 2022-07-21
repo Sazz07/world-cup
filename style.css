@@ -52,6 +52,14 @@ body {
     border-radius: 5px;
     font-size: 20px;
     font-weight: 400;
+    transition: width 1s;
+}
+
+.watch-button:hover {
+    background-color: yellowgreen;
+    color: black; 
+    width: 300px;
+    text-align: center;
 }
 
 .banner-image {
